@@ -1,0 +1,12 @@
+.contentx{
+  margin-top: 25px;
+  min-height: calc(100vh - 208px);
+}
+.movie{
+  width: 18rem;
+}
+.movies{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+  gap:1rem;
+}
